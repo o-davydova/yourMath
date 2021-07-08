@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Levels</class>
+ <widget class="QDialog" name="Levels">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1371</width>
+    <height>934</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Levels{background-color: #cbd6da;}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="2">
+    <widget class="QPushButton" name="homeButton">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#homeButton{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 15pt &quot;Yu Gothic UI Semilight&quot;;
+border:0px;}
+
+#homeButton:hover{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 14pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+     </property>
+     <property name="text">
+      <string> На головне меню </string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="title">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;1 КЛАС&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="title_s">
+       <property name="styleSheet">
+        <string notr="true">color: white;
+font: 20pt &quot;Yu Gothic UI Semilight&quot;;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;обери свій рівень&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="spacing">
+        <number>20</number>
+       </property>
+       <item row="4" column="2">
+        <widget class="QPushButton" name="Lev_11">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_11{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_11:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>11</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QPushButton" name="Lev_12">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_12{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_12:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QPushButton" name="Lev_3">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_3{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_3:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QPushButton" name="Lev_6">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_6{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_6:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="Lev_1">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_1{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_1:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QPushButton" name="Lev_8">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_8{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_8:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QPushButton" name="Lev_10">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_10{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_10:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QPushButton" name="Lev_7">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_7{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_7:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QPushButton" name="Lev_9">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_9{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_9:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QPushButton" name="Lev_4">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_4{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_4:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="Lev_5">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_5{
+background-color: rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_5:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="Lev_2">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Lev_2{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+border: 15px solid;
+border-color: white;}
+
+#Lev_2:hover{
+background-color: rgb(45, 44, 44);
+color: white;
+font: 50pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="DPA">
+     <property name="styleSheet">
+      <string notr="true">#DPA{
+background-color:rgb(255, 255, 255);
+color: rgb(45, 44, 44);
+font: 30pt &quot;Yu Gothic UI Semilight&quot;;
+border: 2px solid;
+border-color: rgb(255, 255, 255);
+border-radius: 20px;}
+
+#DPA:hover{
+background-color: rgb(250, 191, 35);
+	color: rgb(255, 255, 255);
+font: 30pt &quot;Yu Gothic UI Semilight&quot;;
+border-color:  rgb(250, 191, 35);}</string>
+     </property>
+     <property name="text">
+      <string>ДЕРЖАВНА ПІДСУМКОВА АТЕСТАЦІЯ</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

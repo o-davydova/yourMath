@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>autorisation</class>
+ <widget class="QDialog" name="autorisation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1274</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#autorisation{
+background-color: #fabf23;}</string>
+  </property>
+  <widget class="QPushButton" name="yesButton">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>610</y>
+     <width>251</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#yesButton {
+background-color:  rgb(255, 211, 34);
+color:white;
+font: 38pt &quot;Yu Gothic UI Semilight&quot;;
+border: 0px;}
+
+#yesButton:hover{
+background-color: rgb(222, 222, 222);
+color: rgb(74, 72, 73);
+font: 28pt &quot;Yu Gothic UI Semilight&quot;;}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>ТАК</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BGlabel_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>210</y>
+     <width>731</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 5px;
+background-color: rgb(253,253,253);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="HelloLabel">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>50</y>
+     <width>671</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::PreventContextMenu</enum>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 15pt &quot;Yu Gothic UI Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Для початку тобі треба зареєструватися.&lt;br/&gt;Дай відповіді на усі запитання нижче:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="noButton">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>690</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#noButton {
+background-color:  rgb(250, 191, 35);
+color:white;
+font: 18pt &quot;Yu Gothic UI Semilight&quot;;
+border: 0px;}
+
+#noButton:hover{
+background-color: rgb(222, 222, 222);
+color: rgb(74, 72, 73);
+font: 18pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+   </property>
+   <property name="text">
+    <string>Готово</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="thereGif">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>210</y>
+     <width>211</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nameEdit">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>370</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 15pt &quot;Yu Gothic UI Light&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLabel">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>330</y>
+     <width>431</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 15pt &quot;Yu Gothic UI Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Як тебе звати?</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

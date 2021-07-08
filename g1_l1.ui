@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>G1_L1</class>
+ <widget class="QDialog" name="G1_L1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>50</width>
+    <height>50</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#G1_L1{background-color: #cbd6da;}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="homeButton">
+           <property name="styleSheet">
+            <string notr="true">#homeButton{
+background-color:rgb(250, 191, 35);
+color: white;
+font: 15pt &quot;Yu Gothic UI Semilight&quot;;
+border:5px solid;
+border-radius: 5px;
+border-color: rgb(250, 191, 35);
+}
+
+#homeButton:hover{
+border-color: rgb(45, 44, 44);
+background-color: rgb(45, 44, 44);
+color: white;
+font: 14pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+           </property>
+           <property name="text">
+            <string> МІЙ КЛАС </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="printButton">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#printButton{
+font: 25pt &quot;Yu Gothic UI Semilight&quot;;
+	background-color: rgb(203, 214, 218);
+border: 0px;
+}
+
+#printButton:hover{
+font: 30pt &quot;Yu Gothic UI Semilight&quot;;
+	background-color: white;
+border: 2px;
+border-radius: 15px;
+border-color: rgb(203, 214, 218);
+}</string>
+           </property>
+           <property name="text">
+            <string>🖨</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="logo">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/res/img/title.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Minimum</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Minimum</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="title">
+       <property name="styleSheet">
+        <string notr="true">color: white;
+font: 40pt &quot;Yu Gothic UI Semilight&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>РІВЕНЬ 1, КЛАС 1</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Minimum</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="answ_1">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#answ_1{
+	background-image: url(:/res/img/BG.png);
+	image: url(:/res/img/red_apple1.png);
+border: 0px;
+}
+#answ_1:hover{
+	image: url(:/res/img/red_apple2.png);
+}
+
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="answ_2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#answ_2{
+	background-image: url(:/res/img/BG.png);
+	image: url(:/res/img/yellow_apple2.png);
+	border: 0px;
+}
+#answ_2:hover{
+	image: url(:/res/img/yellow_apple1.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="answ_3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#answ_3{
+	background-image: url(:/res/img/BG.png);
+	image: url(:/res/img/red_apple1.png);
+border: 0px;
+}
+#answ_3:hover{
+	image: url(:/res/img/red_apple2.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="answ_4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#answ_4{
+	background-image: url(:/res/img/BG.png);
+	image: url(:/res/img/yellow_apple2.png);
+border: 0px;
+}
+#answ_4:hover{
+	image: url(:/res/img/yellow_apple1.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="answ_5">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#answ_5{
+	background-image: url(:/res/img/BG.png);
+	image: url(:/res/img/red_apple1.png);
+border: 0px;
+}
+#answ_5:hover{
+	image: url(:/res/img/red_apple2.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="answ_6">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#answ_6{
+	background-image: url(:/res/img/BG.png);
+	image: url(:/res/img/yellow_apple2.png);
+border: 0px;
+}
+#answ_6:hover{
+	image: url(:/res/img/yellow_apple1.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="answ_7">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#answ_7{
+	background-image: url(:/res/img/BG.png);
+	image: url(:/res/img/red_apple1.png);
+border: 0px;
+}
+#answ_7:hover{
+	image: url(:/res/img/red_apple2.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="task">
+     <property name="styleSheet">
+      <string notr="true">
+font: 25pt &quot;Yu Gothic UI Semilight&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Натисни на п'яте яблуко.</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <spacer name="verticalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Minimum</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="backButton">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>120</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#backButton{
+	background-image: url(:/res/img/BG.png);
+	image: url(:/res/img/back.png);
+    border: 0px;
+}
+#backButton:hover{
+	image: url(:/res/img/back2.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="nextButton">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>150</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#nextButton{
+	background-image: url(:/res/img/BG.png);
+	image: url(:/res/img/next.png);
+border: 0px;
+}
+#nextButton:hover{
+	image: url(:/res/img/next2.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

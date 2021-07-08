@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Home</class>
+ <widget class="QDialog" name="Home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1143</width>
+    <height>849</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Home{background-color: #cbd6da;}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="title">
+       <property name="styleSheet">
+        <string notr="true">font: 40pt &quot;Yu Gothic UI Light&quot;;
+color: white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;МІЙ КЛАС&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="infoLabel">
+       <property name="minimumSize">
+        <size>
+         <width>1105</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font:30pt &quot;Yu Gothic UI Light&quot;;
+color: white;
+background-color: rgb(250, 191, 35);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>3</number>
+     </property>
+     <item>
+      <spacer name="horizontalSpacer_7">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="changeInfo">
+         <property name="minimumSize">
+          <size>
+           <width>480</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#changeInfo {
+background-color: white;
+color:rgb(43, 42, 42);
+font: 15pt &quot;Yu Gothic UI Semilight&quot;;
+border: 0px;}
+#changeInfo:hover{
+background-color: #20364d;
+color: white;
+font: 14pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>Змінити інформацію про себе</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="showResults">
+         <property name="minimumSize">
+          <size>
+           <width>480</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#showResults {
+background-color: white;
+color:rgb(43, 42, 42);
+font: 15pt &quot;Yu Gothic UI Semilight&quot;;
+border: 0px;}
+#showResults:hover{
+background-color: #20364d;
+color: white;
+font: 14pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>Переглянути мої результати</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <property name="spacing">
+          <number>3</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="grade_1">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>120</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#grade_1 {
+background-color: white;
+color:rgb(43, 42, 42);
+font: 15pt &quot;Yu Gothic UI Semilight&quot;;
+border: 0px;}
+#grade_1:hover{
+background-color: #20364d;
+color: white;
+font: 14pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+           </property>
+           <property name="text">
+            <string>1 клас</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="grade_2">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>120</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#grade_2 {
+background-color: white;
+color:rgb(43, 42, 42);
+font: 15pt &quot;Yu Gothic UI Semilight&quot;;
+border: 0px;}
+#grade_2:hover{
+background-color: #20364d;
+color: white;
+font: 14pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+           </property>
+           <property name="text">
+            <string>2 клас</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="grade_3">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>120</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#grade_3 {
+background-color: white;
+color:rgb(43, 42, 42);
+font: 15pt &quot;Yu Gothic UI Semilight&quot;;
+border: 0px;}
+#grade_3:hover{
+background-color: #20364d;
+color: white;
+font: 14pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+           </property>
+           <property name="text">
+            <string>3 клас</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="grade_4">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>120</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#grade_4 {
+background-color: white;
+color:rgb(43, 42, 42);
+font: 15pt &quot;Yu Gothic UI Semilight&quot;;
+border: 0px;}
+#grade_4:hover{
+background-color: #20364d;
+color: white;
+font: 14pt &quot;Yu Gothic UI Semilight&quot;;}</string>
+           </property>
+           <property name="text">
+            <string>4 клас</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">image: url(:/res/img/banana_1.png);
+background-image: url(:/res/img/BGwhite.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="infoLabel_2">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>360</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 20pt &quot;Yu Gothic UI Light&quot;;
+color: rgb(45, 44, 44);
+background-color: white;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Твій середній бал&lt;br/&gt; становить: &lt;br/&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;0 балів&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="margin">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <spacer name="horizontalSpacer_8">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exitButton">
+       <property name="minimumSize">
+        <size>
+         <width>270</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#exitButton {
+background-color: rgb(250, 191, 35);
+color: rgb(45, 44, 44);
+font: 20pt &quot;Yu Gothic UI Semilight&quot;;
+image: url(:/res/img/closed.png);
+border: 10px solid;
+border-color: rgb(250, 191, 35);
+padding-top:5px;}
+#exitButton:hover{
+background-color: white;
+image:url(:/res/img/open.png);
+color:rgb(43, 42, 42);
+font: 20pt &quot;Yu Gothic UI Semilight&quot;;
+border: 10px solid;
+border-color: white;}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>:/res/img/closed.ico</normaloff>
+         <activeon>:/res/img/open.ico</activeon>:/res/img/closed.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_9">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/res/img/title.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
